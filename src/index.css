@@ -1,0 +1,89 @@
+.navbar .nav-link {
+    color: white;
+    font-weight: 700;
+
+}
+.container > a {
+    font-size: 30px !important;  
+    font-weight: 700;
+}
+.navbar .nav-link:focus {
+text-align: center;
+width: fit-content;
+padding: 8px;
+background-color:#1ABC9C;
+color: white;
+border-radius: 10px;
+}
+.navbar .nav-link:hover{
+    color: white;
+}
+.navbar{
+    background-color: #2C3E50 !important;
+    transition: all 0.5s;
+}
+.footer{
+    background-color: #2C3E50;
+}
+.icon-style{
+    border: 1px solid white ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.end-footer{
+    background-color: #1A252F;
+}
+
+.shape{
+    width: 90px;
+    height: 4px;
+    background-color: white ;
+}
+.home img {
+    width: 250px;
+}
+.main-bg{
+    background-color: #1ABC9C;
+}
+.new-color{
+    color: #2C3E50;
+}
+
+.shape-2{
+    width: 90px;
+    height: 4px;
+    background-color: #2C3E50 ;
+}
+.portfolio h1{
+    color: #2C3E50;
+    font-weight: 700;
+    font-size: 37px;
+}
+.plus-icon{
+    font-size: 150px;
+    margin-bottom: 30px;
+}
+figcaption{
+    opacity: 0;
+transition: all 0.5s;
+cursor: pointer;
+
+}
+.main-img:hover figcaption{
+    opacity: 1;
+}  
+.layer{
+    z-index: 999999999;
+    cursor: pointer;
+}
+
+.my-size{
+    width: 100%;
+}
+
+ @media (min-width:768px){
+    .my-size{
+        width: 50%;
+    }
+}
