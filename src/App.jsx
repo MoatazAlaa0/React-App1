@@ -11,12 +11,12 @@ import Contact from './Component/Contact/Contact';
 
 
  const route= createBrowserRouter([
-  {path:"",element:<Layout/> ,children:[
+  {path:"/React-app1",element:<Layout/> ,children:[
       {index:true,element:<Home/> },
-      { path: '/Home',element:<Home/> },
-      { path: '/About',element:<About/> },
-      { path: '/Portfolio',element:<Portfolio/> },
-      { path: '/Contact',element:<Contact/> },
+      { path: 'Home',element:<Home/> },
+      { path: 'About',element:<About/> },
+      { path: 'Portfolio',element:<Portfolio/> },
+      { path: 'Contact',element:<Contact/> },
       { path: "*",element:<Error/> },
   ]}
  ])
